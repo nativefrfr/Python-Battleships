@@ -234,9 +234,9 @@ def placeP2Ships():
 #boards
     
 def buildP2Board():
-    print(f"{Fore.GREEN}  1 2 3 4 5 6 7 8{Style.RESET_ALL}")
+    print(f"{Fore.BLACK}{Back.GREEN}  1 2 3 4 5 6 7 8 {Style.RESET_ALL}")
     for i in range(0,ymax):
-        print(f"{Fore.GREEN}{i+1}{Style.RESET_ALL}",end=" ")
+        print(f"{Fore.BLACK}{Back.GREEN}{i+1} {Style.RESET_ALL}",end="")
         for b in range(0,xmax):
             if (f"{b},{i}" in p2explodedtiles) and (f"{b},{i}" in p2occupied):
                 print(f"{Back.RED}{Fore.BLACK}XX{Style.RESET_ALL}",end="")
@@ -249,9 +249,9 @@ def buildP2Board():
         print("")
 
 def buildP2NOSHIPBoard():
-    print(f"{Fore.GREEN}  1 2 3 4 5 6 7 8{Style.RESET_ALL}")
+    print(f"{Fore.BLACK}{Back.GREEN}  1 2 3 4 5 6 7 8 {Style.RESET_ALL}")
     for i in range(0,ymax):
-        print(f"{Fore.GREEN}{i+1}{Style.RESET_ALL}",end=" ")
+        print(f"{Fore.BLACK}{Back.GREEN}{i+1} {Style.RESET_ALL}",end="")
         for b in range(0,xmax):
             if (f"{b},{i}" in p2explodedtiles) and (f"{b},{i}" in p2occupied):
                 print(f"{Back.RED}{Fore.BLACK}XX{Style.RESET_ALL}",end="")
@@ -281,7 +281,7 @@ def shootAsP1():
         print(f"{Fore.GREEN}\nHIT! You hit a tile at {currentshotcoords}{Style.RESET_ALL}\nYour turn again!")
         p2lasthit = True
     else:
-        print(f"{Fore.RED}\nMISS! you missed a tile at {currentshotcoords}{Style.RESET_ALL}\nYour turn again!")
+        print(f"{Fore.RED}\nMISS! you missed a tile at {currentshotcoords}{Style.RESET_ALL}\n")
         p1lasthit = False
 
 def shootAsP2():
