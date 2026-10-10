@@ -1,6 +1,4 @@
 import os
-import time
-import math
 from colorama import Fore,Style,Back,init
 
 player1pos = [""]
