@@ -15,6 +15,8 @@ Then I saw [hackclub](https://hackclub.com) had made a new program called [hackc
 
 ### todo
 
-> finish wordless game loop
+> finish wordle game loop
+
 > make more games
+
 > fix bugs
