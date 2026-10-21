@@ -12,3 +12,9 @@ in your favouite terminal:
 
 in my computer science class, I had finished the work before everybody else and was just kind of sitting there. so my teacher gave me the goal of making battleships in python. So i did.
 Then I saw [hackclub](https://hackclub.com) had made a new program called [hackclub terra](https://terra.hackclub.com). I decided to give it a go and submit this as one of my projects. 
+
+### todo
+
+> finish wordless game loop
+> make more games
+> fix bugs
